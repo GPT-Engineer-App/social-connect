@@ -110,6 +110,7 @@ const Index = () => {
             </>
           ) : (
             <VStack spacing={4} align="stretch">
+              <Text fontSize="xl">Welcome, {email}!</Text>
               <FormControl id="search">
                 <InputGroup>
                   <Input type="text" placeholder="Search users..." value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)} />
